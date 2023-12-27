@@ -1,0 +1,41 @@
+.page {
+
+    &__presentation {
+    }
+}
+.presentation {
+
+    &__container {
+    }
+
+    &__body {
+        @include flex-column(40px);
+    }
+
+    &__info {
+        @include flex_row(20px);
+    }
+
+    &__title {
+        @include font-set(120%,60px,#333,700);
+        flex-basis: 580px;
+    }
+
+    &__text {
+        @include font-set(120%);
+        justify-self: left;
+        flex-basis: 379px;
+    }
+
+    &__image {
+        width: 100%;
+        height: 456px;
+        img{
+            height: 100%;
+            object-position: center;
+            object-fit:cover;
+        }
+    }
+}
+.container {
+}
