@@ -1,9 +1,9 @@
 :root{
    --dark: #333;
    --gray: #888;
-   --accent: #607CE6;
-   --container-width: 1210px;  
+   --accent: #607CE6;  
 }
+$container-width: 1210; 
 $breakpoint-1: 1200px;
 $breakpoint-2: 992px;
 $breakpoint-3: 768px;

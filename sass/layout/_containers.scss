@@ -3,7 +3,7 @@
     padding-top: 32px;
 }
 .container{
-    max-width: var(--container-width);
+    max-width: $container-width + px;
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;

@@ -17,7 +17,7 @@
     }
 
     &__title {
-        @include font-set(120%,60px,#333,700);
+        @include font-set(120%,60px,var(--dark),700);
         flex-basis: 580px;
     }
 
@@ -32,6 +32,7 @@
         height: 456px;
         img{
             height: 100%;
+            min-height: 220px;
             object-position: center;
             object-fit:cover;
         }
