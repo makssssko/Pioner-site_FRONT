@@ -9,27 +9,15 @@
     }
 
     &__body {
-        
     }
 
     &__title {
-        @include l_screen(){
-            font-size: 40px;
-        }
-        @include md_screen(){
-            font-size: 30px;
-        }
-        @include xs_screen(){
-            font-size: 24px;
-        }
     }
 
     &__row {
-        
     }
 
-    &__column {
-        
+    &__column {   
     }
 
     &__item {
@@ -61,13 +49,10 @@
     }
 
     &__description{
-        
     }
     &__description span{
-        
     }
 
-    &__more, &__description {
-        
+    &__more, &__description { 
     }
 }

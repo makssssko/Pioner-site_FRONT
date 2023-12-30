@@ -4,11 +4,11 @@
     font-weight: $font-weight;
     line-height: $line-height;
 }
-@mixin flex_column($gap){
+@mixin flex_column($gap: 0px){
     row-gap: $gap;
     @extend %flex_column;
 }
-@mixin flex_row($gap){
+@mixin flex_row($gap: 0px){
     column-gap: $gap;
     @extend %flex_row;
 }

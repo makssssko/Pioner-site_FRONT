@@ -17,7 +17,7 @@
     }
 
     &__title {
-        @include font-set(120%,60px,var(--dark),700);
+        @extend %title_text;
         flex-basis: 580px;
     }
 

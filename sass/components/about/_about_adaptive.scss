@@ -15,15 +15,6 @@
     }
 
     &__title {
-        @include l_screen(){
-            font-size: 40px;
-        }
-        @include md_screen(){
-            font-size: 30px;
-        }
-        @include xs_screen(){
-            font-size: 24px;
-        }
     }
 
     &__info {

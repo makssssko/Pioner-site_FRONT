@@ -13,7 +13,7 @@
     }
 
     &__title {
-        @include font_set(120%,48px,var(--dark),700);
+        @extend %title_text;
     }
 
     &__info {
